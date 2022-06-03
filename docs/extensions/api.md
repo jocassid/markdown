@@ -849,7 +849,7 @@ assert someitem in registry
 
     * `item`: The item being registered.
     * `name`: A string used to reference the item.
-    * `priority`: An integer or float used to sort against all items.
+    * `priority`: An integer or float used to sort against all items. The highest numerical value goes first
 
     If an item is registered with a "name" which already exists, the existing item is replaced with the new item.
     Be careful as the old item is lost with no way to recover it. The new item will be sorted according to its
