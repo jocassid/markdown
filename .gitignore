@@ -72,3 +72,6 @@ site/
 
 # Mac files
 .DS_Store
+
+# Integrated Development Environments
+.idea/
